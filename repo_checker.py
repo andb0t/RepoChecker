@@ -22,6 +22,8 @@ for url in urls:
     data = response.read()
     responses.append(json.loads(data))
 
+# gitlab open_issues_count only available to authenticated users
+# bitbucket keys behind separate endpoint - to be implemented
 headers = OrderedDict({
     "updated": {"github": "updated_at", "gitlab": "last_activity_at", "bitbucket": "updated_on"},
     "watchers": {"github": "watchers", "gitlab": None, "bitbucket": None},
