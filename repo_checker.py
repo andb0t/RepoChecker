@@ -1,3 +1,4 @@
+"""This script checks github repositories for actvity."""
 import json
 from datetime import datetime, timedelta
 import urllib.request
