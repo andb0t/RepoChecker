@@ -13,7 +13,7 @@ urls = [
     "https://api.github.com/repos/smicallef/spiderfoot",
     "https://api.github.com/repos/nicolasbeauvais/laravel-botscout",
     "https://gitlab.com/api/v4/projects/gitlab-org%2Fci-cd%2Fdocker-machine",
-    "https://api.bitbucket.org/2.0/repositories/tutorials/tutorials.bitbucket.org"
+    "https://api.bitbucket.org/2.0/repositories/tutorials/tutorials.bitbucket.org",
 ]
 
 responses = []
